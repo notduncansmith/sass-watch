@@ -4,6 +4,10 @@
   "author": "Duncan Smith",
   "email": "duncan.smith@whiteboard-it.com",
   "main": "./app.js",
+  "repository" :
+  { "type" : "git"
+  , "url" : "http://github.com/notduncansmith/sass-watch.git"
+  },
   "dependencies": {
     "node-sass": "~0.5.2",
     "chokidar": "~0.6.2"
