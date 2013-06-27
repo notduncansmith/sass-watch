@@ -1,0 +1,12 @@
+{
+  "name": "sass-watch",
+  "version": "0.1.0",
+  "author": "Duncan Smith",
+  "email": "duncan.smith@whiteboard-it.com",
+  "main": "./app.js",
+  "dependencies": {
+    "node-sass": "~0.5.2",
+    "chokidar": "~0.6.2"
+  },
+  "bin": {"sass-watch": "./app.js" }
+}
