@@ -1,9 +1,11 @@
+#!/usr/bin/env node
+
 var chokidar = require('chokidar')
   , sass = require('node-sass')
   , fs = require('fs')
   , path = require('path')
-  , inputDir = path.join(process.cwd(), process.argv[1])
-  , outputDir = path.join(process.cwd(), process.argv[2])
+  , inputDir = path.join(process.cwd(), process.argv[2])
+  , outputDir = path.join(process.cwd(), process.argv[3])
   , watcher = chokidar.watch(inputDir, {persistent: true});
 
 console.log("Input: " + inputDir, "Output: " + outputDir)
